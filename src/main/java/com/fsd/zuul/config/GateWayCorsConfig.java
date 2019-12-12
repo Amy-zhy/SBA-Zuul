@@ -1,4 +1,4 @@
-package com.ibm.zuul.config;
+package com.fsd.zuul.config;
 
 /**
  * @author PingXue

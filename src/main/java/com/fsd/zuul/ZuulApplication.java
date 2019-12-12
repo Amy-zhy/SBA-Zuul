@@ -1,4 +1,4 @@
-package com.ibm.zuul;
+package com.fsd.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @EnableZuulProxy
-@EnableFeignClients(basePackages = "com.ibm.zuul.feigin")
+@EnableFeignClients(basePackages = "com.fsd.zuul.feigin")
 @SpringBootApplication
 public class ZuulApplication {
 

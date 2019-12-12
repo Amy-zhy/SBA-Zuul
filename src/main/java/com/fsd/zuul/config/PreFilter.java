@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.ibm.zuul.config;
+package com.fsd.zuul.config;
 
-import com.ibm.zuul.feigin.SecurityFeignClient;
+import com.fsd.zuul.feigin.SecurityFeignClient;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;

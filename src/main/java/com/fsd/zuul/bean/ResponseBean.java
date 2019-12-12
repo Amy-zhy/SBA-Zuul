@@ -1,7 +1,7 @@
-package com.ibm.zuul.bean;
+package com.fsd.zuul.bean;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.ibm.zuul.utils.JSONUtil;
+import com.fsd.zuul.utils.JSONUtil;
 
 import java.io.Serializable;
 import java.util.LinkedHashMap;

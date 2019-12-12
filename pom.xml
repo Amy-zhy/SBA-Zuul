@@ -9,11 +9,11 @@
 		<version>2.0.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ibm</groupId>
-	<artifactId>smczuul</artifactId>
+	<groupId>com.fsd</groupId>
+	<artifactId>zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>zuul</name>
-	<description>smc project for zuul</description>
+	<description>fsd project for zuul</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

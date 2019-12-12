@@ -1,4 +1,4 @@
-package com.ibm.zuul.feigin;
+package com.fsd.zuul.feigin;
 
 /**
  * @author PingXue
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.ibm.zuul.bean.ResponseBean;
+import com.fsd.zuul.bean.ResponseBean;
 
-@FeignClient(name = "securityuser-service")
+@FeignClient(name = "user-service")
 public interface SecurityFeignClient {
 	
     // verify admin role
